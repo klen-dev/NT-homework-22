@@ -200,7 +200,7 @@ body {
   color: #FFFFFF !important;
 }
 .footer-right form input {
-  max-width: 471px;
+  max-width: 471px !important;
   margin-left: 12px;
 }
 .footer-right form button {
