@@ -1,0 +1,196 @@
+@import './properties';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    background-color: $dark-colour !important;
+}
+
+.header {
+    background-color: $dark-colour;
+
+    .navbar-toggler {
+        color: $primary-colour !important;
+        border-color: $primary-colour !important;
+    }
+
+    .navbar-brand {
+        color: $primary-colour !important;
+        font-weight: 700 !important;
+    }
+
+    .navbar-nav {
+        gap: 15px !important;
+
+        .nav-link {
+            color: $white !important;
+            font-weight: 400 !important;
+        }
+
+        .active {
+            color: $primary-colour !important;
+        }
+    }
+}
+
+
+.sec-1{
+    background-color: $section-color;
+    margin-bottom: 50px !important;
+    .d-flex{
+        .sec-1__left{
+            h1 , h2 , p,button{
+                color: $white;
+                max-width: 435px;
+            }
+            button{
+                border-color: $primary-colour !important;
+                transition: 0.3s;
+                &:hover{
+                    background-color: $primary-colour !important;
+                    transition: 0.3s;
+                }
+            }
+        }
+
+    }
+    &__right{
+        img{
+            background: url('../images/sec-1-back.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: bottom;
+        }
+    }
+}
+
+
+.sec-2{
+    background-color: $section-color !important;
+    .container{
+        h2{
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 48px;
+            color: $primary-colour !important;
+        }
+        &>p{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 32px;
+            color: $white !important;
+        }
+        >h6{
+            span{
+                color: $primary-colour;
+                font-size: 100px;
+            }
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 36px;
+            color: #FFFFFF;
+        }
+        .sec-2__cards{
+            padding-bottom: 50px;
+        }
+        .sec-2__card{
+            width: 300px;
+            height: 300px;
+            background-color: $low-priority;
+            padding: 0 15px;
+            padding-top: 40px;
+            transition: 0.3s;
+            i{
+                color: $white;
+                font-size: 70px;
+            }
+            >h6{
+                font-size: 28px;
+                color: $white;
+            }
+            &:hover{
+                background-color: $primary-colour;
+                transition: 0.3s;
+            }
+        }
+        .sec-2__cards-2{
+            .card{
+                background-color: $section-color;
+            }
+            .card-body{
+                border-radius: 24px;
+                border: 3px solid $primary-colour;
+                z-index: 2;
+                background-color: $section-color;
+            }
+            &::nth-child(even){
+                border-color: white !important;
+                h5{
+                    color: $primary-colour !important;
+                }
+            }
+            i{
+                font-size: 80px;
+                color: $white;
+            }
+            h5{
+                font-size: 34px;
+                color: $white;
+            }
+            p{
+                font-size: 18px;
+                color: $white;
+            }
+        }
+    }
+}
+
+.sec-3{
+    margin-bottom: 80px;
+    h2{
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 48px;
+        color: $primary-colour !important;  
+        padding-top: 40px;
+    }
+    p{
+        color: $white;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .card{
+        background-color: $sec-3;
+        border-radius: 15px;
+        min-width: 380px !important;
+        min-height: 450px !important;
+        img{
+            opacity: 0.5;
+        }
+        .card-title{
+            font-weight: 600;
+            font-size: 28px !important;
+            line-height: 36px;
+            color: $primary-colour;
+        }
+        .card-3__buttons{
+            a{
+                width: 155px !important;
+                background-color: transparent;
+                border: 3px solid $primary-colour !important;
+                border-radius: 8px;
+                transition: 0.3s;
+                &:hover{
+                    background-color: $primary-colour !important;
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+}
