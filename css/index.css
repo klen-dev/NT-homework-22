@@ -171,4 +171,46 @@ body {
 .sec-3 .card .card-3__buttons a:hover {
   background-color: #7562E0 !important;
   transition: 0.3s;
+}
+
+.footer {
+  padding-top: 40px;
+  margin-bottom: 50px;
+}
+.footer-left h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  color: #7562E0 !important;
+}
+.footer-left p {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+}
+.footer-left__icons {
+  color: #7562E0;
+  font-size: 32px;
+}
+.footer-right h2 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 48px;
+  color: #FFFFFF !important;
+}
+.footer-right form input {
+  max-width: 471px;
+  margin-left: 12px;
+}
+.footer-right form button {
+  width: 155px !important;
+  background-color: transparent;
+  border: 3px solid #7562E0 !important;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.footer-right form button:hover {
+  background-color: #7562E0 !important;
+  transition: 0.3s;
 }/*# sourceMappingURL=index.css.map */

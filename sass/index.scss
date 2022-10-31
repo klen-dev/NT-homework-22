@@ -194,3 +194,51 @@ body{
         }
     }
 }
+
+.footer{
+    padding-top: 40px;
+    &-left{
+        h2{
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 48px;
+            color: $primary-colour !important;  
+        }
+        p{
+            color: $white;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 32px; 
+        }
+        &__icons{
+            color: $primary-colour;
+            font-size: 32px;
+        }
+    }
+    &-right{
+        h2{
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 48px;
+            color: $white !important;  
+        }
+        form{
+            input{
+                max-width: 471px;
+                margin-left: 12px;
+            }
+            button{
+                width: 155px !important;
+                background-color: transparent;
+                border: 3px solid $primary-colour !important;
+                border-radius: 8px;
+                transition: 0.3s;
+                &:hover{
+                    background-color: $primary-colour !important;
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+    margin-bottom: 50px;
+}
