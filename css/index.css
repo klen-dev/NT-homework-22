@@ -202,6 +202,7 @@ body {
 .footer-right form input {
   max-width: 471px !important;
   margin-left: 12px;
+  margin-right: 12px;
 }
 .footer-right form button {
   width: 155px !important;
